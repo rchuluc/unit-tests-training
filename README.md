@@ -1,17 +1,17 @@
 # NodeJS Unit Tests
 
-This trainig was presented on November 2021.
+This training was presented on November 2021.
 
 ## Getting Started
 
 To run this project, make sure that you met the following requirements:
 
-- NodeJS v14 at least
+- NodeJS v14
 - NPM
 
 ### Installing Dependencies
 
-To install the project dependencies run the following command on the project root:
+To install the project dependencies run the following command at the project root folder:
 
 ```bash
 npm install
@@ -30,12 +30,12 @@ npm install
 The project have two folders:
 
 - /src - Where the "real" code lives, it's just fake implementations to simulate a real project.
-- /tests - It's where the unit tests are, and we will focus on this training, this folder have three folders inside `basic`, `intermediate`, and `advanced` to divide the tests into topics, `NOTE: This structure it's just for educational purposes`. 
+- /tests - It's where the unit tests are, and we will focus on this training, this folder have three folders inside `basic`, `intermediate`, and `advanced` to divide the tests into topics, `NOTE: This structure is just for educational purposes`. 
 
 The test files have comments to explain the test behaviour and what we are expecting.
 
 ## Running the tests
-To run all the tests run on the terminal:
+To run all the tests, and code coverage run on the terminal:
 
 ```bash
 npm test
