@@ -1,0 +1,44 @@
+{
+  "name": "unit-tests-training",
+  "version": "1.0.0",
+  "description": "Unit tests training examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=text mocha --recursive tests/",
+    "test:basic": "mocha --recursive tests/basic/",
+    "test:intermediate": "mocha --recursive tests/intermediate/",
+    "test:advanced": "mocha --recursive tests/advanced/",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpereiracoffee/unit-tests-training.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Mocha",
+    "Chai",
+    "Sinon",
+    "Unit",
+    "tests"
+  ],
+  "author": "@rchuluc / @rpereiracoffee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpereiracoffee/unit-tests-training/issues"
+  },
+  "homepage": "https://github.com/rpereiracoffee/unit-tests-training#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "mocha": "^9.1.3",
+    "nyc": "^15.1.0",
+    "rewire": "^5.0.0",
+    "sinon": "^12.0.1",
+    "sinon-chai": "^3.7.0"
+  }
+}
